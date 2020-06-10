@@ -1,0 +1,9 @@
+apply from: "../../buildgradle/component_components.gradle"
+
+dependencies {
+    implementation project(path: ':basecomponent:basecomponent_common')
+    api project(path: ':basecomponent:router')
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+}

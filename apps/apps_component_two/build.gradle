@@ -1,0 +1,14 @@
+apply from: "../../buildgradle/app_components.gradle"
+
+
+dependencies {
+
+
+    implementation project(path: ':basecomponent:basemodule')
+
+    //TODO 4. 修改要调试的组件
+    implementation project(path: ':component:component_two')
+
+
+
+}

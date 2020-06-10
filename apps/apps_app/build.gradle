@@ -1,0 +1,19 @@
+apply from: "../../buildgradle/app_components.gradle"
+
+
+/**
+ * 注意：这个壳主要是用来调试所有的组件，所以在这里需要所有的组件
+ */
+dependencies {
+
+    implementation project(path: ':basecomponent:basemodule')
+
+    implementation project(path: ':component:app')
+
+    implementation project(path: ':component:component_one')
+
+    implementation project(path: ':component:component_two')
+
+
+
+}

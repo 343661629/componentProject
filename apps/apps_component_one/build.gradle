@@ -1,0 +1,17 @@
+apply from: "../../buildgradle/app_components.gradle"
+
+/**
+ * 跑那个组件，就依赖那个组件    跑两个组件就依赖两个   以此类推。。
+ */
+
+dependencies {
+
+
+    implementation project(path: ':basecomponent:basemodule')
+
+    /**
+     * 单项目公共业务组件
+     */
+    implementation project(path: ':component:component_one')
+
+}

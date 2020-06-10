@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.noahedu.component_one">
+
+    <application>
+        <activity android:name="com.noahedu.mvp.view.TestActivity"></activity>
+        <activity android:name=".ComponentOneActivity" />
+
+        <meta-data
+            android:name="com.noahedu.component_one.ComponentOneApp"
+            android:value="ModuleConfig" />
+
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

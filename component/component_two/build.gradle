@@ -1,0 +1,12 @@
+apply from: "../../buildgradle/component_components.gradle"
+
+dependencies {
+
+
+    implementation project(path: ':basecomponent:basecomponent_common')
+    api project(path: ':basecomponent:router')
+
+
+
+
+}

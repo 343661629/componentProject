@@ -1,0 +1,23 @@
+rootProject.name='ComponentDemo'
+
+
+/**
+ * 壳工程Gradle依赖
+ */
+include ':apps:apps_app',':apps:apps_component_one',':apps:apps_component_two'
+
+
+/**
+ * 业务组件
+ */
+include ':component:app', ':component:component_one', ':component:component_two'
+
+/**
+ * 公共业务组件
+ */
+include ':basecomponent:basecomponent_common', ':basecomponent:router', ':basecomponent:basemodule'
+
+/**
+ * 第三方SDK 如网络，多媒体，数据库等等
+ */
+include ':baselib:baselib_network'
